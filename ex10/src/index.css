@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+
+
+#navbar {
+    flex: 1;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#navbar li {
+    list-style-type: none;
+    margin: 0 0 10px 0;
+    padding-top: 5px;
+    border-top: 2px solid;
+    border-top-color: silver;
+}
+
+#navbar li:last-child {
+    border-top: none;
+}
+
+.nav-links {
+    padding-left: 15px;
+}
+
+
+#header {
+    font-size: 16pt;
+    font-weight: bolder;
+    padding-left: 15px;
+}
+
+#main-doc {
+    flex: 2.7;
+    text-align: left;
+    border-left: 2px solid;
+    border-left-color: silver;
+    padding-left: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+.main-section header {
+    font-size: 14pt;
+    font-weight: bolder;
+}
+
+.main-section {
+    color: #353535;
+    margin-left: 20px;
+}
+
+.main-section header {
+    color: black;
+    margin-left: -20px;
+}
+
+#main-doc #introduction code {
+    background-color: #fafafa;
+    display: block;
+    padding-left: 100px;
+    padding-top: 30px;
+    height: 170px;
+}
+
+#main-doc #values_types_and_operators code {
+    background-color: #fafafa;
+    display: block;
+    padding-left: 50px;
+    padding-top: 20px;
+    height: 50px;
+    word-spacing: 11px;
+    text-align: left;
+}
+
+
+#main-doc #program_structure header {
+    padding-top: 15px;
+}
+
+#main-doc #functions code {
+    background-color: #fafafa;
+    display: block;
+    padding-left: 45px;
+    padding-top: 15px;
+    height: 100px;
+}
